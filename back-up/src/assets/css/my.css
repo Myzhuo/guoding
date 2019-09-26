@@ -1,0 +1,208 @@
+/* 顶部导航 */
+body{
+    /* background: #f9f4f459; */
+}
+.pp,.ccc{
+    /*display: none;*/
+}
+.fubu  nav a  .float-right{
+    margin-top: 0.3rem;
+    font-size: .5rem;
+    color: #999;
+ }
+ #qxyej{
+    display:none;
+ }
+/*  */
+.bbb .span{
+    width: 2.7rem;
+    height: auto;
+    border: 1px solid #359f9d;
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+    border-radius: 4px;
+    background: #359f9d;
+    color: #FFF;
+}
+footer  .navbar{
+    padding: 0.2rem 0.5rem;
+}
+.dingbu{
+    display: block;
+    text-align: right;
+}
+.home-right .home-share img{
+    width: 0.72rem;
+    margin-top: 0.5rem;
+}
+.home-left .span{
+    margin-top: 1.5rem;
+}
+.home-right .home-timg img{
+    bottom: 0.9rem;
+}
+.dingbu img{
+    width: 0.72rem;
+    height: 0.72rem;
+    z-index: 800;
+}
+.dibu{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+}
+.navbar img{
+    width: 0.72rem;
+    height: 0.72rem;
+}
+.dingbuda{
+    margin-bottom: 0.5rem;
+    /* border: 0.01rem solid red; */
+    position: relative;
+  
+   /* background: #ffffff; */
+   /* box-shadow: 0 0.5rem 0.4rem 0.1rem #f9f4f459; */
+}
+.dingbuda img{
+    position: absolute;
+    width: 1.26rem;
+    height: 1.26rem;
+    right: 0.2rem;
+    margin:1.5rem 0 0.69rem 0; 
+}
+.zhuchi{
+    
+     /* font-size: 2rem; */
+     margin:1.5rem 0 0.69rem 0; 
+     font-size: 0.12rem;
+    width: 3.35rem;
+    /* height: 0.84rem; */
+}
+
+.mingzi{
+    font-size: 0.25rem;
+    color: #cccccc;
+    background: none;
+    border: none;
+}
+.content{
+    /* border: 0.01rem solid #cccccc; */
+    /* box-shadow: 0 0.5rem 0.4rem 0.1rem #f9f4f459; */
+}
+.content .left{
+    margin-right: 2rem;
+}
+.zhongbu{
+    /* border: 0.01rem solid red; */
+    padding: 0.5rem 0;
+    /* background: #ffffff; */
+    width: auto;
+    height: auto;
+    /* box-shadow: 0 0.5rem 0.4rem 0.1rem #f9f4f459; */
+}
+.zhongbu nav  a {
+    color: #000000;
+}
+.zhongbu nav  a  img{
+     
+    width: 1.26rem;
+    height: 1.26rem;
+}
+.zhongbu nav p{
+    text-align: center;
+    margin-top: 0.28rem;
+    color:#333;
+
+}
+.fubu .fubu1{
+    box-shadow: 0 0.5rem 0.4rem 0.1rem #f9f4f459;
+    margin-top: 0.21rem;
+    /* border: 0.01rem solid red;  */
+}
+ 
+.fubu nav a{
+    margin: 0.35rem 0 0.35rem 0;
+    display: block;
+    height: 1.12rem;
+    color: #000000;
+    line-height: 0.12rem;
+    border-bottom: 0.01rem solid #cccccc;
+}
+.fubu nav a span{
+    margin-top: 0.12rem;
+    line-height: 0.12rem;
+    color: #333;    
+}
+.fubu nav a i{
+    margin-top: 0.21rem;
+}
+.fubu nav a img{
+    /* margin-top: 0.29rem; */
+    margin-right: 0.2rem;
+    width: 0.72rem;
+    height: 0.72rem;
+
+}
+/* .fubu1 nav a{
+ border: none;
+}
+.fubu1 nav a .a1{
+    border-bottom: 0.01rem solid #cccccc;
+} */
+
+ 
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+.navbar-img .box-img , .navbar-img .box-img1 , .navbar-img .box-img3 , .navbar-img .box-img4{
+    width: 0.72rem;
+    height: 0.72rem;
+    background-position: center center;
+    background-size: 0.72rem 0.72rem;
+    background-repeat:  no-repeat;
+}
+.navbar .li-cont .box-img{
+
+    background-image: url('../images/icon__home@2x.png');
+
+}
+.navbar .li-active .box-img{
+    background-image: url('../images/icon_home1_n@2x.png');
+
+}
+.navbar .li-cont .box-img1{
+background-image: url('../images/icon_guan1.png');
+   
+}
+.navbar .li-active .box-img1{
+     background-image: url('../images/icon_guan.png');
+}
+.navbar .li-cont .box-img2{
+    position: absolute;
+    margin-top: -0.7rem;
+    width: 1.98rem;
+    height: 1.98rem;
+    background: url('../images/iconjiahao.png') no-repeat;
+    background-position: center center;
+    background-size: 1.98rem auto;
+}
+.navbar .li-cont .box-img3{
+        background-image: url('../images/icon_q1.png');
+}
+.navbar .li-active .box-img3{
+    background-image: url('../images/icon_q.png');
+
+}
+.navbar .li-cont .box-img4{
+   
+background-image: url('../images/icon_my.png');
+}
+.navbar .li-active .box-img4{
+     background-image: url('../images/icon_my1.png');
+}
