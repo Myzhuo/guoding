@@ -59,7 +59,7 @@ export default {
         }
     },
     created(){
-        console.log(this.groupconter)
+        // console.log(this.groupconter)
     },
     
     methods:{

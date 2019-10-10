@@ -7,12 +7,11 @@ import myCircle from '@/components/Circle'
 import Login from '@/components/login'
 import TimeAxis from '@/components/Timeaxis'
 Vue.use(Router)
-
 export default new Router({
   mode:'history',
   routes: [
     {
-      path: '/dist',
+      path: '/',
       name: 'dist',
       component:Login,
       meta:{
@@ -65,6 +64,22 @@ export default new Router({
       component: resolve => require(['@/view/Subject/sub_detail.vue'], resolve),
       meta:{
         title:'详情'
+      }
+    },
+    {
+      path: '/Experie',
+      name: 'Experie',  //经验详情
+      component: resolve => require(['@/view/Experience/expre_detail.vue'], resolve),
+      meta: {
+        title: '经验详情'
+      }
+    },
+    {
+      path: '/fgrounp',
+      name: 'fgrounp',  //选择小组
+      component: resolve => require(['@/view/onground.vue'], resolve),
+      meta: {
+        title: '选择小组'
       }
     },
   ]

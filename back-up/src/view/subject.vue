@@ -45,11 +45,16 @@ export default {
   },
    methods:{
        Onsubject(id,type,index){
+           var t = this;
         //    console.log(index);
            switch( type ){
                     case 1:
+                    t.$msg({
+                        text:'您点击了'+index.sub_name,
+                        type:'success'
+                    })
                     // 去到项目条详情
-                        this.$router.push({
+                        t.$router.push({
                             path:'/Subdetail',
                             query:{
                                 id:id,

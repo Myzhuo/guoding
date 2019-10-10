@@ -9,14 +9,13 @@
 <script>
 export default {
     name:'TimeAxis',
-
 }
 </script>
 <style scoped>
  .time_out{
 	background: red;
 	width: 100%;
- }
+ } 
  .time_out .cire{
 	 width: 10px;
 	 height: 10px;

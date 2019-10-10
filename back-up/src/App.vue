@@ -25,7 +25,6 @@ export default {
       } 
   },
   created(){   
-     
      var t =  setInterval(() => {
         var Hide = localStorage.getItem('Hide');
        this.Hide = Hide;

@@ -72,6 +72,7 @@ export default {
     },
     methods:{
         getpath(index,e,path){
+          
             var ontlist = this.ontlist;
             for ( var i = 0; i < ontlist.length; i++ ){
                 if( ontlist[i].name == path ){  //选中状态的时候

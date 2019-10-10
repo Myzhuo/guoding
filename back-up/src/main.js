@@ -8,17 +8,24 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.config.productionTip = false
 Vue.use(VueAwesomeSwiper)
+// js
 import './assets/js/flexible.js'
+// css
 import './assets/css/bootstrap.css'
 import './assets/css/comm.css'
 import './assets/css/common.css'
 import './assets/css/end_verson.css'
 import './assets/css/swict.css'
 /* eslint-disable no-new */
+// /消息模板
+import toastRegistry from './msg/index'
+
+Vue.use(toastRegistry)
+// 
 router.beforeEach((to,from,next)=>{
   var Rou = localStorage.getItem('Hide') || '',
    ontlist= ['Home','Follow','Regulate','myCircle','User'];
-  if ( ontlist.includes(to.name) == true){     //includes()这个函数判断数组里面有相同的就为真
+  if ( ontlist.includes(to.name) == true){    
     localStorage.setItem('Hide', '')
   }else{
     localStorage.setItem('Hide', 'OK')

@@ -27,7 +27,6 @@ export default {
         }
     },
     created(){
-        // console.log(this.group)
     },
     methods:{
         ...mapActions([
@@ -39,6 +38,8 @@ export default {
                 type:type,
                 c:c
             }
+            if(c == 1)this.$msg({text:'你关注了'+ this.group[id].group_name,type:'success'});
+            if(c == 0)this.$msg({text:'你取消了对'+ this.group[id].group_name + '关注',type:'success'});                                                                                                                                                                          
             this.Followsub(data);
         }
     }

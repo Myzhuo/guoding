@@ -1131,6 +1131,89 @@ const state = {
         },
 
     ], //tab
+    // 选择小组
+    groupselect:[
+        {
+            group_name: '漫画',
+            group_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568628390333&di=000c59a99dff8dc428e7e60e07902673&imgtype=0&src=http%3A%2F%2Fwww.cnii.com.cn%2Finternetnews%2Fimg%2Fattachement%2Fjpg%2Fsite2%2F20130826%2F00016c58d8d513850ebe45.jpg',
+            group_suggest: '动画更新，二次元漫画，追剧。讨论',
+            group_order: 20,
+            group_num: 60,
+            group_id: 1,
+            new_type: 2,
+            is_flow: 1
+        },
+        {
+            group_name: '萌宠',
+            group_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568971356818&di=8b8f21123d07e2dcd6c26243447f16f6&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fblog%2F201311%2F24%2F20131124132908_tGFjm.thumb.700_0.jpeg',
+            group_suggest: '萌宠出售，萌宠讨论。交流',
+            group_order: 20,
+            group_num: 60,
+            group_id: 2,
+            new_type: 2,
+            is_flow: 1
+        },
+        {
+            group_name: '美女模特',
+            group_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568971441222&di=97581c1b9b710da463eb7a173bee68bb&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fblog%2F201310%2F27%2F20131027115300_dtdB4.jpeg',
+            group_suggest: '模特的讨论，模特的照片',
+            group_order: 20,
+            group_num: 60,
+            group_id: 3,
+            new_type: 2,
+            is_flow: 1
+        },
+        {
+            group_name: '学习交流',
+            group_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568971505449&di=a0eaf96d6b670d590f6194ec48b0b4ab&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181014%2F6a9468fb93f542a887450de5d156efd1.jpeg',
+            group_suggest: '暑期作业,寒假作业代写。研究考研',
+            group_order: 20,
+            group_num: 60,
+            group_id: 4,
+            new_type: 2,
+            is_flow: 1
+        },
+        {
+            group_name: '鬼畜',
+            group_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568628390333&di=000c59a99dff8dc428e7e60e07902673&imgtype=0&src=http%3A%2F%2Fwww.cnii.com.cn%2Finternetnews%2Fimg%2Fattachement%2Fjpg%2Fsite2%2F20130826%2F00016c58d8d513850ebe45.jpg',
+            group_suggest: '动画更新，二次元漫画，追剧。讨论',
+            group_order: 20,
+            group_num: 60,
+            group_id: 5,
+            new_type: 2,
+            is_flow: 1
+        },
+        {
+            group_name: 'NBA',
+            group_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568971356818&di=8b8f21123d07e2dcd6c26243447f16f6&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fblog%2F201311%2F24%2F20131124132908_tGFjm.thumb.700_0.jpeg',
+            group_suggest: 'NBA讨论',
+            group_order: 20,
+            group_num: 60,
+            group_id: 6,
+            new_type: 2,
+            is_flow: 1
+        },
+        {
+            group_name: '旅游',
+            group_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568971441222&di=97581c1b9b710da463eb7a173bee68bb&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fblog%2F201310%2F27%2F20131027115300_dtdB4.jpeg',
+            group_suggest: '各界的各国的风景',
+            group_order: 20,
+            group_num: 60,
+            group_id: 7,
+            new_type: 2,
+            is_flow: 1
+        },
+        {
+            group_name: '一二三',
+            group_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568971505449&di=a0eaf96d6b670d590f6194ec48b0b4ab&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181014%2F6a9468fb93f542a887450de5d156efd1.jpeg',
+            group_suggest: '游戏',
+            group_order: 20,
+            group_num: 60,
+            group_id: 4,
+            new_type: 8,
+            is_flow: 1
+        },
+    ]
 }
 const mutations = {
     // tab的切换
@@ -1160,6 +1243,7 @@ const mutations = {
             case 1:
                 let grouplist = state.grouplist;
                 grouplist[data.index].is_flow != data.c;
+
                 grouplist[data.index].is_flow = !data.c;
                 state.grouplist = grouplist;
                 break;

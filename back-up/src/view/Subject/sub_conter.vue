@@ -109,6 +109,8 @@ export default {
             id:id,
             f:is
         }
+        if(is== 1)this.$msg({text:'你关注了'+this.subconter.sub_name,type:'success'})
+        if(is== 0)this.$msg({text:'你取消了对'+this.subconter.sub_name+'的关注',type:'success'})
         this.Followsubdetal(data)
     }
     },
