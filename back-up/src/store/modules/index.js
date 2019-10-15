@@ -5,13 +5,13 @@ const state = {
     userdata:[
         
          {
-            userimg:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            userimg:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             username:'邹小姐',
             subject:'小姐姐',
             userl:'6',
             userTime:'2019/ 08 / 09',
             userconter:'邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
-            userImgconter:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            userImgconter:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             userliu:'1万次',
             userdz:'1万次',
             user:'2万次',
@@ -33,7 +33,7 @@ const state = {
             is_flow: 1
         },
         {
-            userimg:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            userimg:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             username:'邹小姐',
             subject:'小姐姐',
             userl:'6',
@@ -75,14 +75,14 @@ const state = {
     followlist:[
         
         {
-           userimg:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            userimg:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
            username:'邹小姐',
            subject:'小姐姐',
            userl:'6',
            type:1,
            userTime:'2019/ 08 / 09',
            userconter:'邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
-           userImgconter:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            userImgconter:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
            userliu:'1万次',
            userdz:'1万次',
            user:'2万次'
@@ -128,7 +128,7 @@ const state = {
 
       },
        {
-           userimg:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+           userimg:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
            username:'邹小姐',
            subject:'小姐姐',
            type:1,
@@ -197,7 +197,7 @@ const state = {
     type:'1',
     carouselList:[
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             text:'1',
         },
         {
@@ -210,7 +210,7 @@ const state = {
     ],
     subjectlist:[
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             sub_name:'辣妹项目',
             id:1,
             type:1,
@@ -270,14 +270,14 @@ const state = {
 
         },
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             sub_name:'靓妹项目',
             id:2,
             type:1,
             is_f: 1,
             subcont: [
                 {
-                    sub_img: 'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
                     sub_name: '辣妹美容广州有限公司',
                     sub_msg: '辣妹项目',
                     sub_url: 'www.lamei.com',
@@ -334,14 +334,14 @@ const state = {
             ]
         },
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             sub_name:'美女项目',
             id:3,
             type:1,
             is_f: 1,
             subcont: [
                 {
-                    sub_img: 'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
                     sub_name: '美女项目广州有限公司',
                     sub_msg: '辣妹项目',
                     sub_url: 'www.lamei.com',
@@ -396,14 +396,14 @@ const state = {
             ]
         },
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             sub_name:'靓妹项目靓妹项目靓妹项目',
             id:4,
             type:1,
             is_f: 1,
             subcont: [
                 {
-                    sub_img: 'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
                     sub_name: '辣妹美容广州有限公司',
                     sub_msg: '靓妹项目靓妹项目靓妹项目',
                     sub_url: 'www.lamei.com',
@@ -460,14 +460,14 @@ const state = {
             ]
         },
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             sub_name:'靓妹项目',
             id:5,
             type:1,
             is_f: 1,
             subcont: [
                 {
-                    sub_img: 'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
                     sub_name: '靓妹项目',
                     sub_msg: '靓妹项目',
                     sub_url: 'www.lamei.com',
@@ -524,14 +524,14 @@ const state = {
             ]
         },
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             sub_name:'我是一个小苹果',
             id:6,
             type:1,
             is_f: 1,
             subcont: [
                 {
-                    sub_img: 'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
                     sub_name: '我是一个小苹果',
                     sub_msg: '我是一个小苹果',
                     sub_url: 'www.lamei.com',
@@ -590,7 +590,7 @@ const state = {
             ]
         },
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             sub_name:'爱爱i',
             id:7,
             type:1,
@@ -654,14 +654,14 @@ const state = {
             ]
         },
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             sub_name:'宠物',
             id:8,
             type:1,
             is_f: 1,
             subcont: [
                 {
-                    sub_img: 'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg',
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
                     sub_name: '宠物',
                     sub_msg: '宠物',
                     sub_url: 'www.lamei.com',
@@ -787,7 +787,7 @@ const state = {
             type:2
         },
         {
-            src:'https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912143029-56486.gif',
+            src:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
             sub_name:'动漫',
             id:4,
             type:2
@@ -1140,7 +1140,7 @@ const state = {
             group_order: 20,
             group_num: 60,
             group_id: 1,
-            new_type: 2,
+            new_type: 3,
             is_flow: 1
         },
         {
@@ -1150,7 +1150,7 @@ const state = {
             group_order: 20,
             group_num: 60,
             group_id: 2,
-            new_type: 2,
+            new_type: 3,
             is_flow: 1
         },
         {
@@ -1160,7 +1160,7 @@ const state = {
             group_order: 20,
             group_num: 60,
             group_id: 3,
-            new_type: 2,
+            new_type: 3,
             is_flow: 1
         },
         {
@@ -1170,7 +1170,7 @@ const state = {
             group_order: 20,
             group_num: 60,
             group_id: 4,
-            new_type: 2,
+            new_type: 3,
             is_flow: 1
         },
         {
@@ -1180,7 +1180,7 @@ const state = {
             group_order: 20,
             group_num: 60,
             group_id: 5,
-            new_type: 2,
+            new_type: 3,
             is_flow: 1
         },
         {
@@ -1190,7 +1190,7 @@ const state = {
             group_order: 20,
             group_num: 60,
             group_id: 6,
-            new_type: 2,
+            new_type: 3,
             is_flow: 1
         },
         {
@@ -1200,7 +1200,7 @@ const state = {
             group_order: 20,
             group_num: 60,
             group_id: 7,
-            new_type: 2,
+            new_type: 3,
             is_flow: 1
         },
         {
@@ -1210,12 +1210,278 @@ const state = {
             group_order: 20,
             group_num: 60,
             group_id: 4,
-            new_type: 8,
+            new_type: 3,
             is_flow: 1
         },
-    ]
+    ],
+    // 选择关注的小组
+    followground:[],
+    // 选择关注的项目条
+    onloadsubject:[
+        {
+            sub_name:'动漫',
+            id:'1',
+            on_active:1,
+            sub_conince:[
+                {
+                    sub_img:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name:'二次元',
+                    order_num:5,
+                    follow_num:10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                }
+            ]
+        },
+        {
+            sub_name: '美女',
+            id: '2',
+            on_active: 1,
+            sub_conince: [
+                {
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name: '二次元',
+                    order_num: 5,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                }
+            ]
+        },
+        {
+            sub_name: '动物',
+            id: '3',
+            on_active: 1,
+            sub_conince: [
+                {
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name: '二次元',
+                    order_num: 5,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                }
+            ]
+        },
+        {
+            sub_name: '萌新',
+            id: '4',
+            on_active: 1,
+            sub_conince: [
+                {
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name: '二次元',
+                    order_num: 5,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                }
+            ]
+        },
+        {
+            sub_name: '学习',
+            id: '2',
+            on_active: 1,
+            sub_conince: [
+                {
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name: '二次元',
+                    order_num: 5,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                }
+            ]
+        },
+    ],
+    sub_conince:[
+        {
+            id:'1',
+            sub_conince: [
+                {
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name: '二次元',
+                    order_num: 5,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                }
+            ]
+        },
+        {
+            id:'2',
+            sub_conince: [
+                {
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name: '二次元',
+                    order_num: 5,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                }
+            ]
+        },
+        {
+            id: '3',
+            sub_conince: [
+                {
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name: '二次元',
+                    order_num: 5,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                }
+            ]
+        },
+        {
+            id: '4',
+            sub_conince: [
+                {
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name: '二次元',
+                    order_num: 5,
+                    follow_num: 10,
+                },
+               
+            ]
+        },
+        {
+            id: '5',
+            sub_conince: [
+                {
+                    sub_img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+                    sub_name: '二次元',
+                    order_num: 5,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                },
+                {
+                    sub_img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+                    sub_name: '美女',
+                    order_num: 55,
+                    follow_num: 10,
+                }
+            ]
+        },
+
+    ],
+    // 选择的项目条
+    selectsub:[]
+
 }
 const mutations = {
+    // 启动页选择项目条
+    [types.SELECTSUB]( state , data  ){
+        var that = this;
+        let sele = state.selectsub;
+        if ( sele.length <= 5 ){
+            if (sele.includes(data.i) == true){
+                return;
+            }else{
+                sele.push(data.i);
+            }
+
+        } 
+        state.selectsub = sele;
+    },
     // tab的切换
     [types.INDEXNAV]( state ,data ){
         var tablist =   state.tablist;
@@ -1253,6 +1519,23 @@ const mutations = {
                 grouphot[data.index].is_flow = !data.c;
                 state.grouphot = grouphot;
                 break;
+            case 3:
+                let groupselect = state.groupselect;
+                let followlist = state.followground;
+                   
+                switch (groupselect[data.index].is_flow){
+                    case 1:
+                        followlist.push(groupselect[data.index]);
+                        break;
+                    case !1:
+                        followlist.splice(followlist.indexOf(groupselect[data.index]),1);
+                        break;
+                }
+                groupselect[data.index].is_flow != data.c;
+                groupselect[data.index].is_flow = !data.c;
+                state.groupselect = groupselect;
+                state.followground = followlist;
+                break;
         }
     },
     // /项目条的关注
@@ -1266,6 +1549,12 @@ const mutations = {
     }
 }
 const actions = {
+    Selectsub({ commit, state }, data) {   //foolo
+        return new Promise((resolve, reject) => {
+            resolve(data)
+            commit('SelectSub', data)
+        })
+    },
     Remove({ commit,state },data ){   //foolo
         return new Promise((resolve,reject)=>{
             resolve(data)

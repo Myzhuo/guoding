@@ -11,7 +11,7 @@ export default new Router({
   mode:'history',
   routes: [
     {
-      path: '/',
+      path: '/dist',
       name: 'dist',
       component:Login,
       meta:{

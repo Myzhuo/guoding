@@ -2,7 +2,7 @@
 <div>
  <img src="@/assets/images/onload.png" alt=""  :class="kongzhi" class="Imgalist">
  <span  class="list-mode" :class="kongzhi">{{timeout}}</span>
-    <section class="body-bg content-body newContent qid-content"  :class="hide">
+    <section class="body-bg content-body newContent "  :class="hide">
      <div class="shangtou s-df s-cf  " >
         <div class=" flex padding">
             <p>选择感兴趣的项目条</p>
@@ -27,83 +27,23 @@
             <!-- </div> -->
         </div>
         <div class="xixian1 " style="margin-top:.5rem;"></div>
- 
             <!-- 循环 -->
-             <div class=" zuob s-flex">
+             <div class=" zuob s-flex" >
                 <div class="nav-left">
                     <ul class="leftli">
-                        <li class="active">11</li>
-                        <li class="">11</li>
-                        <li class="">11</li>
-                        <li class="">11</li>
+                        <li :class=" couindex === index ? 'active': '' " v-for="(item,index) in onject" :key="index" @click=" Tablist(index,item.id,item) ">{{item.sub_name}}</li>
                     </ul>
                 </div>
                 <div class="nav-right">
-
-                     <ul class="nav-right-list active">
+                     <ul class="nav-right-list active" v-for="(item,index) in oncont[couindex].sub_conince "  :key="index" @click="selectsub(item,index)" >
 						<li>
 						    <div class="nav-phone-right s-df s-cf s-hao">
-							<img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt="" >
-								<span class="shouyea">名字</span>
-								<span class="wenzhang">26遍文章，25人关注</span>
+							<img :src="item.sub_img" alt="" >
+								<span class="shouyea">{{item.sub_name}}</span>
+								<span class="wenzhang">{{item.order_num}}遍文章，{{item.follow_num}}人关注</span>
 							</div>
 					    </li>
 					</ul>
-                    <ul class="nav-right-list active">
-						<li>
-						    <div class="nav-phone-right s-df s-cf s-hao">
-							<img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt="" >
-								<span class="shouyea">名字</span>
-								<span class="wenzhang">26遍文章，25人关注</span>
-							</div>
-					    </li>
-					</ul>
-                    <ul class="nav-right-list active">
-						<li>
-						    <div class="nav-phone-right s-df s-cf s-hao">
-							<img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt="" >
-								<span class="shouyea">名字</span>
-								<span class="wenzhang">26遍文章，25人关注</span>
-							</div>
-					    </li>
-					</ul>
-                    <ul class="nav-right-list active">
-						<li>
-						    <div class="nav-phone-right s-df s-cf s-hao">
-							<img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt="" >
-								<span class="shouyea">名字</span>
-								<span class="wenzhang">26遍文章，25人关注</span>
-							</div>
-					    </li>
-					</ul>
-                    <ul class="nav-right-list active">
-						<li>
-						    <div class="nav-phone-right s-df s-cf s-hao">
-							<img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt="" >
-								<span class="shouyea">名字</span>
-								<span class="wenzhang">26遍文章，25人关注</span>
-							</div>
-					    </li>
-					</ul>
-                    <ul class="nav-right-list active">
-						<li>
-						    <div class="nav-phone-right s-df s-cf s-hao">
-							<img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt="" >
-								<span class="shouyea">名字</span>
-								<span class="wenzhang">26遍文章，25人关注</span>
-							</div>
-					    </li>
-					</ul>
-                    <ul class="nav-right-list active">
-						<li>
-						    <div class="nav-phone-right s-df s-cf s-hao">
-							<img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt="" >
-								<span class="shouyea">名字</span>
-								<span class="wenzhang">26遍文章，25人关注</span>
-							</div>
-					    </li>
-					</ul>
-                    
                 </div>
             </div>
 
@@ -113,12 +53,7 @@
                     <div class="s-df s-hao">
                         <span>已选：</span>
                         <ul class="imgaa s-df s-hao s-flex">
-                             <li><img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt=""></li>
-                             <li><img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt=""></li>
-                             <li><img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt=""></li>
-                             <li><img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt=""></li>
-                             <li><img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt=""></li>
-                             <li><img src="https://jingshui.bkyau4.top//api/order/images/2019-09-12/20190912113707-59284.jpg" alt=""></li>
+                             <li v-for="(a,b) in onimg" :key="b"><img :src="a.sub_img" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -131,14 +66,24 @@
     </div>
 </template>
 <script>
+ import { createNamespacedHelpers } from 'vuex'
+  const { mapState,mapActions} = createNamespacedHelpers('index')
 export default {
     data(){
-        
         return{
             hide:'hide',
             kongzhi:'block',
-            timeout:5
+            timeout:5,
+            couindex:0,
         }
+    },
+    
+    computed:{
+        ...mapState({
+            onject:state=>state.onloadsubject,
+            oncont:state=>state.sub_conince,
+            onimg:state=>state.selectsub
+        })
     },
     created(){
         var  t = setInterval(()=>{
@@ -147,36 +92,54 @@ export default {
                 clearInterval(t);
                 this.kongzhi = 'hide';
                 this.hide = 'block';
-
             }
            
         },1000)
     },
     methods:{
+        ...mapActions([
+            'Selectsub'
+        ]),
+        selectsub(i,j){
+            var data ={
+                i:i,
+                j:j
+            }
+            let len = this.onimg.length;
+            if( len == 6 )this.$msg({
+                text:'只能选择这么多喔',
+                type:'success'
+            })
+            this.Selectsub(data);
+        },
         next(){
             this.$router.push({
                 path:'/fgrounp'
             })
         },
-        rouer(){
-            this.$router.push({
-                path:'/Home'
-            })
+        Tablist(a,b,c){
+            this.couindex =a;
         },
-        Time(){
-            this.$msg({
-                text:'胸地，介个唔系比你望啊!',
-                type:'wraning'
-            })
-        //  this.$router.push({
-        //      path:'/TimeAxis'
-        //  })
-        }
+     
        
     }
 }
 </script>
 <style scoped>
+.ydian{
+    margin-top: 0;
+
+}
+.ydian i{
+    width: .13513513513513514rem;
+    height: .13513513513513514rem;
+    border-radius: 50%;
+    background: #bbb;
+    margin-left: .16216216216216217rem;
+}
+.ydian .span1{
+    background: #399;
+}
 .list-mode{
    position: fixed;
     background: #fff;
@@ -282,7 +245,7 @@ export default {
     width: 1rem;
     height: 1rem;
     border-radius: 3px;
-    /* margin:0 .1rem .3rem .1rem; */
+    margin:0 .1rem .3rem .1rem;
     /* display: inline-block; */
 }
 .icon-input{

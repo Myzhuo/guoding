@@ -8,5 +8,7 @@ export const FOLLOWSUB = 'FollowSub'
 export const SUBTAB = 'SubTab'
 //项目条详情
 export const ISFOLLOW ='Isfollow'
+// 启动页
+export const SELECTSUB ='SelectSub'
 
  

@@ -1,7 +1,7 @@
 <template>
     <div>
       <heads-circle />
-       <section class=" newContent circle-content">
+       <section class="  circle-content">
            <ground-circle />
             <section class="zhgongti justify-content-center align-items-center li-cont">
                 <div class="jiexian"></div>

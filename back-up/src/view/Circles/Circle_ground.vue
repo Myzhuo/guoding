@@ -7,7 +7,7 @@
     </div>
 </template>
 <script>
-import ground from '../subject'
+import ground from '../subjectgroup'
  import { createNamespacedHelpers } from 'vuex'
   const { mapState,mapActions} = createNamespacedHelpers('index')
 export default {
@@ -16,7 +16,7 @@ export default {
     },
     computed:{
             subjectList(){
-                return this.$store.state.index.Popular
+                return this.$store.state.index.followground
             }
     },
     created(){

@@ -12,7 +12,7 @@
     </div>
 </template>
 <script> 
- import  subJect  from "../view/subject"
+ import  subJect  from "../view/subjectlist"
  import  tabList  from "../view/tablist"
  import  FollowHeads from "../view/Follow/follow_heads"
  import { createNamespacedHelpers } from 'vuex'
@@ -26,14 +26,12 @@ export default {
     },
     computed:{
         ...mapState({
-              Popular:state=>state.Popular,
+              Popular:state=>state.selectsub,
         }),
         tabList(){
            return  this.$store.state.index.tablist
         }
     },
-    
-    
 }
 </script>
 <style scoped>
