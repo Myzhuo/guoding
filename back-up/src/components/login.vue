@@ -2,7 +2,7 @@
 <div>
  <img src="@/assets/images/onload.png" alt=""  :class="kongzhi" class="Imgalist">
  <span  class="list-mode" :class="kongzhi">{{timeout}}</span>
-    <section class="body-bg content-body newContent "  :class="hide">
+    <section class="body-bg content-body newContent " :class="hide">
      <div class="shangtou s-df s-cf  " >
         <div class=" flex padding">
             <p>选择感兴趣的项目条</p>
@@ -40,7 +40,7 @@
 						    <div class="nav-phone-right s-df s-cf s-hao">
 							<img :src="item.sub_img" alt="" >
 								<span class="shouyea">{{item.sub_name}}</span>
-								<span class="wenzhang">{{item.order_num}}遍文章，{{item.follow_num}}人关注</span>
+								<span class="wenzhang">{{item.order_num}}遍文章,{{item.follow_num}}人关注</span>
 							</div>
 					    </li>
 					</ul>
@@ -73,7 +73,7 @@ export default {
         return{
             hide:'hide',
             kongzhi:'block',
-            timeout:5,
+            timeout:10,
             couindex:0,
         }
     },
@@ -118,7 +118,7 @@ export default {
             })
         },
         Tablist(a,b,c){
-            this.couindex =a;
+            this.couindex = a;
         },
      
        
@@ -218,6 +218,8 @@ export default {
     display: block;
     width: 100%;
      height: auto;
+     padding-top:.4rem;
+     padding-bottom: .4rem; 
      /*border:1px solid red;*/
 }
 .yj ul li {
@@ -288,8 +290,8 @@ margin-top: 0.41rem;
 }
 
 .nav-left ul li{
-    height:1.0rem;
-    line-height: 1.0rem;
+    height:2.0rem;
+    line-height: 2.0rem;
     text-align: center;
 }
 .nav-left ul li.active{
@@ -316,8 +318,8 @@ margin-top: 0.41rem;
     /* width: 3rem; */
     float: left;
     height: auto;
-    /* margin-top: 0.1rem; */
-    /* margin-left: 0.35rem; */
+    margin-top: 0.18rem;
+    margin-left: 0.15rem;
 }
 .nav-right .nav-right-list .nav-phone-right  .shouyea{
 

@@ -74,7 +74,7 @@
           </div>
           <!-- <div id="hot" class="tab-content justify-content-center align-items-center"> -->
           <div id="hot" class="tab-content" style=" padding-bottom: 3rem;"> 
-              <conter :user-data="userdata"></conter>
+              <conter :user-data="askdata"></conter>
           </div>
           </div>
           </div>
@@ -95,6 +95,7 @@ export default {
             ...mapState({
                userdata:state=>state.userdata,
                type:state=>state.type,
+               askdata:state=>state.askdata,
                carouselList:state=>state.carouselList,
                subjectList:state=>state.subjectlist,
                Popular:state=>state.Popular

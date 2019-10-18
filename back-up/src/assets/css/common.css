@@ -10,11 +10,16 @@
     /*background: #f4f4f4;*/
 }
 .getMonth{
-        border: none;
+    border: none;
     outline: none;
     font-size: .5rem;
     color: #bbb;
     margin-top:0;
+     background: url(~@/assets/images/right.png) no-repeat;
+    width: 7px;
+    height: 12px;
+    background-position: center;
+    background-size: 100% 100%;
 }
 button{
     outline: none !important;
@@ -54,6 +59,9 @@ i{font-style: normal;}
     background-position: center;
     margin-right: 0.4rem;
     display: block;
+}
+html,body{
+    /* cursor: url(~@/assets/images/share.png) auto; */
 }
 .content-header .left-btn,
 .content-header .right-btn{

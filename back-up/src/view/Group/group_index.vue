@@ -56,7 +56,7 @@ export default {
     width: 100%;
     position: relative;
     height: 1px;
-    background: #e5e5e5;
+    background: #f5f5f5;
 }
 .flex .img{
     width: 1.2rem;

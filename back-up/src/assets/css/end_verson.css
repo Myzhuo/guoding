@@ -777,7 +777,7 @@ button{ padding: 0; }
  .qid-content .yj li img{ width: 1.135135135135135rem; height: 1.135135135135135rem; margin: 0; }
  .qid-content .flex .img{ width: 1.135135135135135rem; height: 1.135135135135135rem; overflow: hidden; border-radius: 0.16216216216216217rem; }
  .qid-content .flex .img img{ max-width: 100%; max-height: 100%; margin: 0; width: auto; height: auto; }
- .qid-content .tup{ padding: 0; border-bottom: 0.02702702702702703rem solid #f5f5f5; }
+ .qid-content .tup{ padding: 0; }
  .qid-content .tup .right{ width: auto; }
  .qid-content .left .daxie{ margin-top: 0; width: auto; font-size: 0.40540540540540543rem; line-height: 0.5945945945945946rem; margin-bottom: 0.16216216216216217rem; }
  .qid-content .tup .left .zishu{ padding: 0; margin: 0; font-size: 0.32432432432432434rem; line-height: 0.4864864864864865rem; }

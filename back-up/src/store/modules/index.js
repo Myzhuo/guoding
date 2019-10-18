@@ -9,6 +9,7 @@ const state = {
             username:'邹小姐',
             subject:'小姐姐',
             userl:'6',
+            is_tpye:1,
             userTime:'2019/ 08 / 09',
             userconter:'邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
             userImgconter:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
@@ -24,6 +25,7 @@ const state = {
             username:'邹小姐',
             subject:'小姐姐',
             userl:'6',
+            is_tpye: 1,
             userTime:'2019/ 08 / 09',
             userconter:'邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
             userImgconter:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
@@ -37,6 +39,7 @@ const state = {
             username:'邹小姐',
             subject:'小姐姐',
             userl:'6',
+            is_tpye: 1,
             userTime:'2019/ 08 / 09',
             userconter:'邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
             userImgconter:'',
@@ -50,6 +53,7 @@ const state = {
             username:'邹小姐',
             subject:'小姐姐',
             userl:'6',
+            is_tpye: 1,
             userTime:'2019/ 08 / 09',
             userconter:'邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
             userImgconter:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
@@ -63,12 +67,88 @@ const state = {
             username:'邹小姐',
             subject:'小姐姐',
             userl:'6',
+            is_tpye: 1,
             userTime:'2019/ 08 / 09',
             userconter:'邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
             userImgconter:'',
             userliu:'1万次',
             userdz:'1万次',
             user:'2万次',
+            is_flow: 1
+        },
+    ],
+    askdata: [
+
+        {
+            userimg: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+            username: '邹小姐',
+            subject: '小姐姐',
+            userl: '6',
+            is_tpye: 2,
+            userTime: '2019/ 08 / 09',
+            userconter: '邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
+            userImgconter: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+            userliu: '1万次',
+            userdz: '1万次',
+            user: '2万次',
+            is_flow: 1,
+
+        },
+
+        {
+            userimg: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+            username: '邹小姐',
+            subject: '小姐姐',
+            userl: '6',
+            is_tpye: 2,
+            userTime: '2019/ 08 / 09',
+            userconter: '邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
+            userImgconter: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+            userliu: '1万次',
+            userdz: '1万次',
+            user: '2万次',
+            is_flow: 1
+        },
+        {
+            userimg: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2385002424,2773893641&fm=26&gp=0.jpg',
+            username: '邹小姐',
+            subject: '小姐姐',
+            userl: '6',
+            is_tpye: 2,
+            userTime: '2019/ 08 / 09',
+            userconter: '邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
+            userImgconter: '',
+            userliu: '1万次',
+            userdz: '1万次',
+            user: '2万次',
+            is_flow: 1
+        },
+        {
+            userimg: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+            username: '邹小姐',
+            subject: '小姐姐',
+            userl: '6',
+            is_tpye: 2,
+            userTime: '2019/ 08 / 09',
+            userconter: '邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
+            userImgconter: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+            userliu: '1万次',
+            userdz: '1万次',
+            user: '2万次',
+            is_flow: 1
+        },
+        {
+            userimg: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568627751783&di=4b7b5453bcc42a79b4c3134a649225e6&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3145340897%2C1327228973%26fm%3D214%26gp%3D0.jpg',
+            username: '邹小姐',
+            subject: '小姐姐',
+            userl: '6',
+            is_tpye: 2,
+            userTime: '2019/ 08 / 09',
+            userconter: '邹小姐是不是很漂亮，非常的漂亮。是不是啊。我觉得是非常的漂亮。嗯很漂亮',
+            userImgconter: '',
+            userliu: '1万次',
+            userdz: '1万次',
+            user: '2万次',
             is_flow: 1
         },
     ],
@@ -1464,7 +1544,10 @@ const state = {
 
     ],
     // 选择的项目条
-    selectsub:[]
+    selectsub:[],
+    experconter:[
+        
+    ]
 
 }
 const mutations = {
@@ -1551,20 +1634,20 @@ const mutations = {
 const actions = {
     Selectsub({ commit, state }, data) {   //foolo
         return new Promise((resolve, reject) => {
-            resolve(data)
             commit('SelectSub', data)
+            resolve(data)
         })
     },
     Remove({ commit,state },data ){   //foolo
         return new Promise((resolve,reject)=>{
-            resolve(data)
             commit('IndexNav',data)
+            resolve(data)
         })
     },
     Restab({ commit, state }, data) {   //foolo
         return new Promise((resolve, reject) => {
-            resolve(data)
             commit('SubTab', data)
+            resolve(data)
         })
     },
     // 关注

@@ -21,10 +21,12 @@ export default {
     return {
         isRouterAlive:true,
         isrName:this.$rName,
-        Hide:'OK'
+        Hide:'OK',
+        // url: url(~require('@/assets/images/cursur.gif') )
       } 
   },
   created(){   
+  
      var t =  setInterval(() => {
         var Hide = localStorage.getItem('Hide');
        this.Hide = Hide;
@@ -43,7 +45,8 @@ export default {
  
 </script>
 
-<style>
+<style scoped>
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -51,5 +54,7 @@ export default {
   color: #2c3e50;
   font-size: .35rem;
   background: #f8f9fa;
+  
 }
+ 
 </style>

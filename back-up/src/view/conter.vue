@@ -1,6 +1,6 @@
 <template>
         <div class="tab-content">
-             <div class="tupLi" id="exper"  v-for="(item,index) in userData" :key="index">
+             <div class="tupLi" id="exper"  v-for="(item,index) in userData" :key="index" @click="onload(item,index,item.is_tpye)">
                     <div class="tup huixian " id="exper" >
                         <div class="flex  aaa">
                             <!-- <a href = "homepage.html"> -->
@@ -59,7 +59,21 @@ export default {
     },
     
     methods:{
-        
+        onload(i,j,k){
+           
+            switch(k){
+                case 1:
+                     this.$msg({
+                        text:'您点击了'+i.username+'发布的经验',
+                        type:'success'
+                    })
+                    this.$router.push({
+                        path:'Experie'
+                    })
+                    break;
+            }
+            // 
+        }
     }
 }
 </script>
@@ -67,6 +81,9 @@ export default {
 .tup .yanxiana img {
     border-radius: 36px;
 
+}
+.zhgongti .tab-content .lefta .daxie{
+    line-height: 0;
 }
 .rightyouxia  .homedian img{
     width: 15px;

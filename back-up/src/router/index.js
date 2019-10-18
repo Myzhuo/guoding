@@ -79,8 +79,9 @@ export default new Router({
       name: 'fgrounp',  //选择小组
       component: resolve => require(['@/view/onground.vue'], resolve),
       meta: {
-        title: '选择小组'
+        title: '启动页'
       }
     },
+   
   ]
 })

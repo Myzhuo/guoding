@@ -22,7 +22,7 @@
                 </div> -->
                 <!-- 没有登录的时候 -->
                 <div class="bbb noLogin">
-                    <div class="span" id="login" onclick="window.location.href='login.html'">
+                    <div class="span" id="login"  >
                         <span>登录/注册</span>
                     </div>
                 </div>
@@ -54,27 +54,33 @@
         </div>
         <div class="zhongbu bg">
             <nav class="flex justify-content-center">
-                <div class="s-flex s-df s-wao s-hao"><a href="myfollow.html" id="myfollow"><img src="@/assets/images/my_guanzhu.png" alt=""><p>我的关注</p></a></div>
-                <div class="s-flex s-df s-wao s-hao"><a href="mypublish.html" id="mypublish"><img src="@/assets/images/my_fabu.png" alt=""><p>我的发布</p></a></div>
-                <div class="s-flex s-df s-wao s-hao"><a href="liulan.html" id="liulan"><img src="@/assets/images/my_liulan.png" alt=""><p>最近浏览</p></a></div>
-                <div class="s-flex s-df s-wao s-hao"><a href="integr.html" id="integr"><img src="@/assets/images/my_jlu.png" alt=""><p>已签到</p></a></div>
+                <div class="s-flex s-df s-wao s-hao"><a  id="myfollow"><img src="@/assets/images/my_guanzhu.png" alt=""><p>我的关注</p></a></div>
+                <div class="s-flex s-df s-wao s-hao"><a id="mypublish"><img src="@/assets/images/my_fabu.png" alt=""><p>我的发布</p></a></div>
+                <div class="s-flex s-df s-wao s-hao"><a  id="liulan"><img src="@/assets/images/my_liulan.png" alt=""><p>最近浏览</p></a></div>
+                <div class="s-flex s-df s-wao s-hao"><a  id="integr"><img src="@/assets/images/my_jlu.png" alt=""><p>已签到</p></a></div>
             </nav>
         </div>
         <div class="fubu fus">
             <nav>
-                <a href="followsubject.html" class="s-df s-hao"><img src="@/assets/images/my_xiangmu.png"><span class="s-flex">我的项目</span><span class="float-right toRight"></span></a>
-                <a href="mygroup.html" class="s-df s-hao" id="mygroup"><img src="@/assets/images/my_xiaozu.png"><span class="s-flex">我的小组</span><span
+                <!-- href="followsubject.html" -->
+                <a  class="s-df s-hao"><img src="@/assets/images/my_xiangmu.png"><span class="s-flex">我的项目</span><span class="float-right toRight"></span></a>
+                <!-- href="mygroup.html" -->
+                <a  class="s-df s-hao" id="mygroup"><img src="@/assets/images/my_xiaozu.png"><span class="s-flex">我的小组</span><span
                         class="float-right toRight"></span></a>
-                <a href="mymoney.html" class="s-df s-hao" id="cardmoney"><img src="@/assets/images/my_dashang.png"><span class="s-flex">我的打赏</span><span
+                        <!-- href="mymoney.html" -->
+                <a  class="s-df s-hao" id="cardmoney"><img src="@/assets/images/my_dashang.png"><span class="s-flex">我的打赏</span><span
                         class="float-right toRight"></span></a>
-                <a href="mystore.html" class="s-df s-hao" id="mystore"><img src="@/assets/images/my_shouc.png"><span class="s-flex">我的收藏</span><span class="float-right toRight"></span></a>
-                <a href="homezlan.html" class="s-df s-hao" id="myshenqzlan"><img src="@/assets/images/my_zlan.png"><span class="s-flex">我的专栏</span><span
+                         <!-- href="mystore.html" -->
+                <a class="s-df s-hao" id="mystore"><img src="@/assets/images/my_shouc.png"><span class="s-flex">我的收藏</span><span class="float-right toRight"></span></a>
+                 <!-- href="homezlan.html" -->
+                <a class="s-df s-hao" id="myshenqzlan"><img src="@/assets/images/my_zlan.png"><span class="s-flex">我的专栏</span><span
                         class="float-right toRight"></span></a>
             </nav>
         </div>
         <div class="fubu">
             <nav>
-                <a href="shizengduo.html" id="shizengduo" class="s-df s-hao"><img src="@/assets/images/my_sz.png"><span class="s-flex">设置</span><span
+                <!-- href="shizengduo.html" -->
+                <a  id="shizengduo" class="s-df s-hao"><img src="@/assets/images/my_sz.png"><span class="s-flex">设置</span><span
                         class="float-right toRight"></span></a>
                 <a href="javascript:void(0)" class="s-df s-hao" onclick="tabBlackMode(this)"><img src="@/assets/images/my_yejian.png" /><span class="s-flex">夜间模式</span><span class="float-right toRight"></span></a>
             </nav>
